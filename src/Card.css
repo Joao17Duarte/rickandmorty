@@ -8,13 +8,18 @@
     352deg,
     rgba(24, 84, 28, 1) 38%,
     rgba(69, 156, 42, 0.8633332799692623) 58%,
-    rgba(0, 255, 100, 1) 73%
+    rgba(26, 89, 50, 1) 73%
   );
   color: #eee;
   justify-content: center;
   text-align: center;
   margin: 20px;
   box-shadow: 10 4px 150px greenyellow;
+}
+
+.Card span {
+  font-size: 0.8rem;
+  font-weight: 300;
 }
 
 .Card img {
