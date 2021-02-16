@@ -1,0 +1,23 @@
+.Card {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgb(24, 84, 28);
+  background: linear-gradient(
+    352deg,
+    rgba(24, 84, 28, 1) 38%,
+    rgba(69, 156, 42, 0.8633332799692623) 58%,
+    rgba(0, 255, 100, 1) 73%
+  );
+  color: #eee;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+  box-shadow: 10 4px 150px greenyellow;
+}
+
+.Card img {
+  border-radius: 50%;
+  box-shadow: 15px 15px 100px greenyellow;
+}
