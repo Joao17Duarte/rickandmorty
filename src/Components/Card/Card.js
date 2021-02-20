@@ -14,7 +14,7 @@ export default function Card({
   const [isShowingDetails, setIsShowingDetails] = useState(false)
 
   return (
-    <section className="Card">
+    <div className="Card">
       <h2>{name}</h2>
 
       <p>{species}</p>
@@ -29,6 +29,6 @@ export default function Card({
         <li>Origin: {origin} </li>
         <li>Location: {location}</li>
       </ul>
-    </section>
+    </div>
   )
 }

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import Card from '../Card/Card'
+import Header from '../Header/Header'
 
 export default function App() {
   const [characters, setCharacters] = useState([])
@@ -22,6 +23,7 @@ export default function App() {
 
   return (
     <>
+      <Header title={'Rick and Morty'} />
       <div className="App">
         {characters.map(
           ({ name, species, image, status, gender, origin, location, id }) => (
