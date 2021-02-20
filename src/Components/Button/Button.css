@@ -1,4 +1,13 @@
 .Button {
+  padding: 15px;
+  margin: 20px;
+  background: linear-gradient(
+    5deg,
+    rgba(26, 89, 50, 0.7) 18%,
+    rgba(205, 219, 7, 0.918) 70%,
+    rgba(26, 89, 50, 0.7) 83%
+  );
+  color: white;
   border: none;
   border-radius: 5px;
 }

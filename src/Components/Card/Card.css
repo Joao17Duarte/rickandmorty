@@ -1,20 +1,18 @@
 .Card {
   display: grid;
-  gap: 20px;
   padding: 20px;
   border-radius: 10px;
-  background: rgb(24, 84, 28);
   background: linear-gradient(
     352deg,
-    rgba(24, 84, 28, 1) 38%,
-    rgba(69, 156, 42, 0.8633332799692623) 58%,
-    rgba(26, 89, 50, 1) 73%
+    rgba(24, 84, 28, 1) 50%,
+    rgba(69, 156, 42, 0.8633332799692623) 60%,
+    rgba(26, 89, 50, 1) 75%
   );
   color: #eee;
   justify-content: center;
   text-align: center;
   margin: 20px;
-  box-shadow: 10 4px 150px greenyellow;
+  box-shadow: 0 10px 20px greenyellow;
 }
 
 .Card span {
